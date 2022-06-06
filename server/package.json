@@ -6,11 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node index",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm run build",
-    "heroku-postbuild":"npm run install-client && npm run build",
-    
-    "client": "cd client && npm start",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"server": "nodemon index"
   },
